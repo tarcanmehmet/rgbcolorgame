@@ -1,0 +1,57 @@
+body{
+	background-color: rgb(44, 45, 48);
+}
+
+.gameInfo{
+	background-color: white;
+}
+
+.gameInfo, .jumbotron{
+	text-align: center;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.jumbotron{
+	background-color: rgb(76, 126, 206);
+	color: white;
+	margin-bottom: 0;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.blueLabel{
+	color:rgb(76, 126, 206);
+}
+
+.gameMenu{
+	width: 50%;
+	margin-left: 25%;
+	margin-right: 25%;
+}
+
+.box {
+    float: left;
+    width: 30%;
+    margin: 1.66%;
+    border-radius: 5%;
+    background-color: white;
+}
+
+.box:before {
+    content: "";
+    display: block;
+    padding-top: 100%;
+}
+
+.nottrue{
+	cursor: default !important;
+}
+
+#playAgain, .box{
+	cursor: pointer;
+}
+
+#gameInfo{
+	cursor: default;
+}
